@@ -1,1 +1,1 @@
-web: gunicorn firstDjango.wsgi --log-file -
+web: gunicorn eduApp.wsgi --log-file -
