@@ -120,5 +120,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-
+heroku config:set DISABLE_COLLECTSTATIC=1
 django_heroku.settings(locals())  only for heroku
